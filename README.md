@@ -1,5 +1,5 @@
 ﻿# MobileDeviceDevelopment
-
+//exc1
 export default function calculateBMI(weight, height) {
     const bmi = weight / (height * height);
     let category;
@@ -16,3 +16,16 @@ export default function calculateBMI(weight, height) {
   
     return { bmi, category };
   }
+
+// exc 2
+
+    import calculateBMI from './index.js';
+
+       const weight = 70;
+       const height = 1.7;
+
+       const result = calculateBMI(weight, height);
+       console.log(`BMI: ${result.bmi}`);
+       console.log(`Category: ${result.category}`);
+       
+       
